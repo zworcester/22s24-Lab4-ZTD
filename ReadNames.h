@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class ReadNames(){
+class ReadNames{
 private:	
 public:
 	ReadNames(){}

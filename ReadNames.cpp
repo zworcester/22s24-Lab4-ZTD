@@ -8,8 +8,8 @@ string ReadNames::readNames() {
 	
 	string tmp;
 	string output;
-	while(f >> tmp)
-		output += (tmp +\n);
+	while(getline(f, tmp))
+		output += (tmp + '\n');
 
 	return output;
 }
